@@ -47,7 +47,7 @@ These have been provided in [results](https://github.com/lizmccutcheon/my-first-
     -`spark-submit --class ReportCli out/report/assembly/dest/out.jar diff source_data/brazil_covid19.csv source_data/new_brazil_covid19.csv data/diff_report`  
 
 ### Deploy and run on AWS
-Refer to instructions here
+Refer to instructions [here](https://github.com/lizmccutcheon/my-first-spark-job-lol/blob/main/AWS_instructions.md)
 
 ## Compute and comparison strategy
-See brief discussion here
+See brief discussion [here](https://github.com/lizmccutcheon/my-first-spark-job-lol/blob/main/Computation_strategy.md)
