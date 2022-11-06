@@ -1,15 +1,16 @@
 # my-first-spark-job-lol
 
 ## About
-Basic diff report written in Spark, and consists=ing of 2 jobs
+Basic diff report written in Spark, consisting of 2 jobs : 
 1.  `import`, which reads `brazil_covid19_cities.csv`, transforms the data and writes out to a new file `new_brazil_covid19.csv`.
 2.  `diff`, which generates a diff report which compares files `brazil_covid19.csv` (the "source" file) and `new_brazil_covid19.csv` (the "destination" file, generated using `import` method).  
-Outputs are :
-- `import` outputs a .csv file, e.g. `new_brazil_covid19.csv` 
-- `diff` outputs single line json report containing a summary of the differences between the source and destination files provided. 
+
+Outputs are :  
+1. `import`, a new .csv file (`new_brazil_covid19.csv`)
+2. `diff`, a single line json report containing a summary of the differences between the source and destination files provided. 
 
 ## Acknowledgements
-Mill setup and ReportCli.scala borrowed from [https://github.com/jlcanela/basicreport](https://github.com/jlcanela/basicreport).
+Mill setup and `ReportCli.scala` borrowed from [https://github.com/jlcanela/basicreport](https://github.com/jlcanela/basicreport).
   
 This work was originally submitted as part of the assessment for Data Pipeline 2 course, part of the MSc in Data Engineering for AI at Data ScienceTech Institute.
 
