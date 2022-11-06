@@ -1,0 +1,7 @@
+.vscode
+.coursier
+.history
+.metals
+data/
+out/
+source_data/
