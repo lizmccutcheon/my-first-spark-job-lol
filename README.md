@@ -51,3 +51,7 @@ Refer to instructions [here](https://github.com/lizmccutcheon/my-first-spark-job
 
 ## Compute and comparison strategy
 See brief discussion [here](https://github.com/lizmccutcheon/my-first-spark-job-lol/blob/main/Computation_strategy.md)
+
+## Author
+Liz McCutcheon  
+November 2022
